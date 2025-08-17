@@ -31,7 +31,7 @@
     </div>
 
     <!-- HERO SECTION -->
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container col-xxl-8 px-4 py-5 ">
         <div class="row flex-lg-row-reverse align-items-center g-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="images/Group 11 1.svg" class="d-block mx-lg-auto img-fluid" alt="Hero Image" width="700"
@@ -88,6 +88,10 @@
     <!-- ABOUT -->
     <div class="container py-5">
         <div class="row align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/About Me.svg" class="d-block mx-lg-auto img-fluid" alt="About Me" width="700"
+                    height="500">
+            </div>
             <div class="col-lg-6">
                 <p class="text-secondary">About</p>
                 <h1 class="fw-bold mb-3">About Me</h1>
@@ -97,123 +101,244 @@
                 <p class="text-secondary">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget
                     commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
             </div>
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="images/About Me.svg" class="d-block mx-lg-auto img-fluid" alt="About Me" width="700"
-                    height="500">
-            </div>
+
         </div>
     </div>
 
     <!-- PROJECTS -->
     <div class="container py-5">
-        <h1 class="mb-5">My Projects</h1>
+        <!-- Heading center me -->
+        <h1 class="mb-5 text-center">
+            My Projects
+        </h1>
+
         <div class="row g-4">
-            <div class="col-lg-4">
-                <h3 class="fs-2">Ahuse</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                <a href="#">View In Dribbble <img src="images/Vector.svg" alt=""></a>
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-3 shadow-sm">
+                    <img src="images/image2.svg" class="card-img-top img-fluid"
+                        style="max-height:200px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h3 class="fs-4">Ahuse</h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        <a href="#">View In Dribbble <img src="images/Vector.svg" alt=""></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h3 class="fs-2">App Dashboard</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                <a href="#">View In Dribbble <img src="images/Vector.svg" alt=""></a>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-3 shadow-sm">
+                    <img src="images/Image.svg" class="card-img-top img-fluid"
+                        style="max-height:200px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h3 class="fs-4">App Dashboard</h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        <a href="#">View In Dribbble <img src="images/Vector.svg" alt=""></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h3 class="fs-2">Easy Rent</h3>
-                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                <a href="#">View In Dribbble <img src="images/Vector.svg" alt=""></a>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-3 shadow-sm">
+                    <img src="images/image3.svg" class="card-img-top img-fluid"
+                        style="max-height:200px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h3 class="fs-4">Easy Rent</h3>
+                        <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        <a href="#">View In Dribbble <img src="images/Vector.svg" alt=""></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
 
     <!-- TESTIMONIALS -->
-<div class="container py-5">
-    <p class="text-secondary text-center">What Clients Say</p>
-    <h1 class="fw-bold text-center mb-5">Testimonials</h1>
+    <div class="container py-5">
+        <p class="text-secondary text-center">Clients Feedback</p>
+        <h1 class="fw-bold text-center mb-5">Customers Testimonials</h1>
 
-    <div class="row g-4 justify-content-center">
-        <!-- Testimonial 1 -->
-        <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm p-4 text-center">
-                <img src="images/client1.jpg" alt="Client 1" class="rounded-circle mx-auto mb-3" width="80" height="80">
-                <p class="text-secondary">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel libero in dui sodales convallis."</p>
-                <h5 class="fw-bold mb-0">Sarah Johnson</h5>
-                <small class="text-muted">CEO, Company</small>
-            </div>
-        </div>
+        <div class="row g-4 justify-content-center">
+            <!-- Testimonial -->
+            <div class="col-md-4 d-flex">
+                <div class="card h-100 border-3 shadow-sm p-4" style="border-color: #124444;">
+                    <!-- Stars color (golden example) -->
 
-        <!-- Testimonial 2 -->
-        <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm p-4 text-center">
-                <img src="images/client2.jpg" alt="Client 2" class="rounded-circle mx-auto mb-3" width="80" height="80">
-                <p class="text-secondary">"Suspendisse varius enim in eros elementum tristique. Cras sagittis nunc non purus viverra."</p>
-                <h5 class="fw-bold mb-0">Michael Lee</h5>
-                <small class="text-muted">Product Manager</small>
-            </div>
-        </div>
+                    <!-- Stars left side -->
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/Stars.svg" alt="Stars" class="me-2" width="100">
+                    </div>
 
-        <!-- Testimonial 3 -->
-        <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm p-4 text-center">
-                <img src="images/client3.jpg" alt="Client 3" class="rounded-circle mx-auto mb-3" width="80" height="80">
-                <p class="text-secondary">"Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo."</p>
-                <h5 class="fw-bold mb-0">Emily Davis</h5>
-                <small class="text-muted">Designer</small>
-            </div>
-        </div>
-    </div>
-</div>
+                    <!-- Testimonial text -->
+                    <p class="text-secondary text-start mb-4">
+                        "Suspendisse varius enim in eros elementum tristique. Cras sagittis nunc non purus viverra."
+                    </p>
 
-<!-- CONTACT FORM -->
-<div class="container py-5">
-    <p class="text-secondary text-center">Get In Touch</p>
-    <h1 class="fw-bold text-center mb-4">Contact Me</h1>
+                    <!-- Client info row -->
+                    <div class="d-flex align-items-center">
+                        <!-- Client Image -->
+                        <img src="images/Avatar Image.svg" alt="Client" class="rounded-circle me-3" width="60"
+                            height="60">
 
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <form class="p-4 border rounded shadow-sm bg-light">
-                <div class="mb-3">
-                    <label for="name" class="form-label fw-semibold">Your Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <!-- Name + Post -->
+                        <div>
+                            <h5 class="fw-bold mb-0">Michael Lee</h5>
+                            <small class="text-muted">Product Manager</small>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-                <div class="mb-3">
-                    <label for="email" class="form-label fw-semibold">Your Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <!-- Testimonial -->
+            <div class="col-md-4 d-flex">
+                <div class="card h-100 border-3 shadow-sm p-4" style="border-color: #124444;">
+                    <!-- Stars color (golden example) -->
+
+                    <!-- Stars left side -->
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/Stars.svg" alt="Stars" class="me-2" width="100">
+                    </div>
+
+                    <!-- Testimonial text -->
+                    <p class="text-secondary text-start mb-4">
+                        "Suspendisse varius enim in eros elementum tristique. Cras sagittis nunc non purus viverra."
+                    </p>
+
+                    <!-- Client info row -->
+                    <div class="d-flex align-items-center">
+                        <!-- Client Image -->
+                        <img src="images/Avatar Image.svg" alt="Client" class="rounded-circle me-3" width="60"
+                            height="60">
+
+                        <!-- Name + Post -->
+                        <div>
+                            <h5 class="fw-bold mb-0">Michael Lee</h5>
+                            <small class="text-muted">Product Manager</small>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
-                <div class="mb-3">
-                    <label for="message" class="form-label fw-semibold">Message</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Write your message here"></textarea>
+
+            <!-- Testimonial -->
+            <div class="col-md-4 d-flex">
+                <div class="card h-100 border-3 shadow-sm p-4" style="border-color: #124444;">
+                    <!-- Stars color (golden example) -->
+
+                    <!-- Stars left side -->
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/Stars.svg" alt="Stars" class="me-2" width="100">
+                    </div>
+
+                    <!-- Testimonial text -->
+                    <p class="text-secondary text-start mb-4">
+                        "Suspendisse varius enim in eros elementum tristique. Cras sagittis nunc non purus viverra."
+                    </p>
+
+                    <!-- Client info row -->
+                    <div class="d-flex align-items-center">
+                        <!-- Client Image -->
+                        <img src="images/Avatar Image.svg" alt="Client" class="rounded-circle me-3" width="60"
+                            height="60">
+
+                        <!-- Name + Post -->
+                        <div>
+                            <h5 class="fw-bold mb-0">Michael Lee</h5>
+                            <small class="text-muted">Product Manager</small>
+                        </div>
+                    </div>
                 </div>
-
-                <button type="submit" class="btn btn-primary px-4">Send Message</button>
-            </form>
-        </div>
-    </div>
-</div>
+            </div>
 
 
-    <!-- FOOTER -->
-    <footer class="border-top py-4">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center">
-            <p class="mb-0 text-secondary">
-                <img src="images/Logo (8).svg" alt="Logo" height="30"> © 2025 Alveena
-            </p>
-            <ul class="nav">
-                <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">About Me</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">Testimonials</a></li>
-            </ul>
-            <ul class="nav">
-                <li class="ms-3"><a href="#"><img src="images/instagram.svg" height="20"></a></li>
-                <li class="ms-3"><a href="#"><img src="images/facebook.svg" height="20"></a></li>
-            </ul>
-        </div>
-    </footer>
+            <!-- CONTACT FORM -->
+            <div class="container py-5">
+                <p class="text-secondary text-center">Get In Touch</p>
+                <h1 class="fw-bold text-center mb-4">Contact Me</h1>
+                <p class="text-secondary text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form class="p-4 border rounded shadow-sm bg-light">
+
+                            <!-- First + Last Name -->
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label fw-semibold">First Name</label>
+                                    <input type="text" class="form-control" id="firstName"
+                                        placeholder="Enter your first name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label fw-semibold">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName"
+                                        placeholder="Enter your last name">
+                                </div>
+                            </div>
+
+                            <!-- Email + Phone -->
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-semibold">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label fw-semibold">Phone Number</label>
+                                    <input type="text" class="form-control" id="phone"
+                                        placeholder="Enter your phone number">
+                                </div>
+                            </div>
+
+                            <!-- Topic -->
+                            <div class="mb-3">
+                                <label for="topic" class="form-label fw-semibold">Choose a Topic</label>
+                                <select class="form-select" id="topic">
+                                    <option selected disabled>-- Select a topic --</option>
+                                    <option>General Inquiry</option>
+                                    <option>Project Discussion</option>
+                                    <option>Feedback</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-semibold">Message</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Write your message here"></textarea>
+                            </div>
+
+                            <!-- Submit Button Center -->
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary px-5">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- FOOTER -->
+            <footer class="border-top py-4">
+                <div class="container d-flex flex-wrap justify-content-between align-items-center">
+                    <p class="mb-0 text-secondary">
+                        <img src="images/Logo (8).svg" alt="Logo" height="30"> © 2025 Alveena
+                    </p>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">About Me</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-secondary px-2">Testimonials</a></li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="ms-3"><a href="#"><img src="images/instagram.svg" height="20"></a></li>
+                        <li class="ms-3"><a href="#"><img src="images/facebook.svg" height="20"></a></li>
+                    </ul>
+                </div>
+            </footer>
 </body>
 
 </html>
